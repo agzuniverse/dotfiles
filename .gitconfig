@@ -1,0 +1,12 @@
+[user]
+	email = aswinganesh666@gmail.com
+	name = agzuniverse
+[alias]
+	s = status
+	c = checkout
+	cm = commit -m
+	pom = push origin master
+	fu = fetch upstream master
+	fo = fetch origin master
+	r = rebase
+	b = branch
