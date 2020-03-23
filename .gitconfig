@@ -10,3 +10,4 @@
 	fo = fetch origin master
 	r = rebase
 	b = branch
+	cane = commit --amend --no-edit
