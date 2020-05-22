@@ -11,3 +11,5 @@
 	r = rebase
 	b = branch
 	cane = commit --amend --no-edit
+	rum = rebase upstream/master
+	rom = rebase origin/master
