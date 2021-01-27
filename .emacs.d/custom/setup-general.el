@@ -10,6 +10,12 @@
 (setq display-line-numbers-type 'relative) ;; Display relative line numbers
 (add-to-list 'default-frame-alist '(fullscreen . maximized)) ;; Start emacs in fullscreen
 
+;; Put all backup files into one directory
+(setq backup-directory-alist
+      '(("." . "~/.emacs.d/temp/")))
+(setq auto-save-file-name-transforms
+      `((".*" ,"~/.emacs.d/temp/" t)))
+
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; show unncessary whitespace that can mess up your diff
