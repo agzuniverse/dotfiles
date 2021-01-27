@@ -5,6 +5,9 @@
       tab-width 4                       ; default to 4 visible spaces to display a tab
       )
 
+;; autocomplete paired brackets
+(electric-pair-mode 1)
+
 (add-hook 'sh-mode-hook (lambda ()
                           (setq tab-width 4)))
 
