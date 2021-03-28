@@ -13,3 +13,4 @@
 	cane = commit --amend --no-edit
 	rum = rebase upstream/master
 	rom = rebase origin/master
+	prum = pull --rebase upstream master
