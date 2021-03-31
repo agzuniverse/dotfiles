@@ -14,3 +14,4 @@
 	rum = rebase upstream/master
 	rom = rebase origin/master
 	prum = pull --rebase upstream master
+	prom = pull --rebase origin master
